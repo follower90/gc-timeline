@@ -11,7 +11,7 @@ module.exports = (env, argv) => {
       path: path.resolve(__dirname, 'dist'),
       filename: '[name].[contenthash].js',
       clean: true,
-      publicPath: '/'
+      publicPath: process.env.GITHUB_DEPLOY ? '' : '/'
     },
     module: {
       rules: [
@@ -49,4 +49,4 @@ module.exports = (env, argv) => {
     },
     devtool: isDevelopment ? 'eval-source-map' : 'source-map'
   };
-}; 
+};

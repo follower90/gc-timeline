@@ -8,7 +8,7 @@ import { LanguageProvider } from './contexts/LanguageContext';
 
 const App = () => (
   <LanguageProvider>
-    <Router>
+    <Router basename={process.env.GITHUB_DEPLOY ? '/gc-timeline' : '/'}>
       <div className="container">
         <Menu />
         <Routes>
@@ -20,4 +20,4 @@ const App = () => (
   </LanguageProvider>
 );
 
-export default App; 
+export default App;
