@@ -410,6 +410,7 @@ const Timeline = () => {
   
     return (
       <div className="container">
+        <h2>{t('timeline.title')}</h2>
         <ConfigForm config={config} onConfigChange={setConfig} />
         <div className="timeline-grid">
           {timelineData(config).map((data) => (

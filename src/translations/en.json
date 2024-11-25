@@ -1,0 +1,63 @@
+{
+  "menu": {
+    "timelineCalculator": "Timeline Calculator",
+    "i485Prediction": "I-485 Prediction"
+  },
+  "calculator": {
+    "title": "I-485 Prediction",
+    "priorityDate": "My Priority Date",
+    "category": "Category",
+    "currentFilingDate": "Current filing date for",
+    "filingDate": "Filing date",
+    "daysToWait": "Days to wait",
+    "estimatedDate": "Estimated date",
+    "greenCardApprovalDate": "Green card approval date",
+    "days": "days",
+    "disclaimer": "The information is updated monthly according to the latest Visa Bulletin updates.",
+    "disclaimerBacklog": "Future backlog regression is not included to the estimations."
+  },
+  "timeline": {
+    "title": "Timeline Calculator",
+    "configuration": "Configuration (days)",
+    "eb2PdWait": "EB2 PD wait",
+    "eb3PdWait": "EB3 PD wait",
+    "pwdProcessing": "PWD processing",
+    "recruitmentPeriod": "Recruitment period",
+    "permProcessing": "PERM processing",
+    "i485Processing": "I-485 processing",
+    "regular": "Regular",
+    "premium": "Premium",
+    "summary": "Summary",
+    "daysTo": "Days to PD",
+    "totalDays": "Total days",
+    "years": "years",
+    "notRequired": "Not required",
+    "requiredRecruitment": "Includes PWD and recruitment",
+    "i140Processing": "USCIS adjudication time",
+    "priorityDateWait": "Waiting for priority date",
+    "finalProcessing": "Final green card processing",
+    "month": "month",
+    "months": "months",
+    "days": "days",
+    "eb2PdTooltip": "Average days diff between today and filing date in the Visa Bulletin",
+    "eb3PdTooltip": "Average days diff between today and filing date in the Visa Bulletin",
+    "priorityDateWaitDesc": "Waiting for priority date to become current",
+    "tooltips": {
+      "eb1NoPermRequired": "EB1 category does not require PERM Labor Certification",
+      "eb1RegularProcessing": "Based on regular processing times for EB1 category",
+      "eb1NoPriorityDate": "EB1 typically has no priority date backlog except for certain countries",
+      "i485Processing": "Average USCIS processing time for I-485",
+      "i485NoPremium": "Average USCIS processing time for I-485 (premium not available)",
+      "premiumProcessing15": "Premium processing guarantees 15 business days processing",
+      "niwNoPermRequired": "National Interest Waiver exempts from PERM requirement",
+      "niwLongerProcessing": "Longer processing due to complex NIW criteria evaluation",
+      "niwPriorityDate": "Similar to regular EB2 category wait times",
+      "premiumProcessing45": "Premium processing guarantees 45 business days processing",
+      "permProcessingSteps": "Includes prevailing wage, recruitment period, and PERM application processing",
+      "eb2RegularProcessing": "Based on regular processing times for EB2 category",
+      "eb2PriorityDate": "Average wait time for most countries (longer for certain countries)",
+      "eb3RegularProcessing": "Based on regular processing times for EB3 category",
+      "eb3PriorityDate": "Longer wait times due to higher demand in EB3 category"
+    }
+  }
+} 

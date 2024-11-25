@@ -7,7 +7,7 @@ const Menu = () => {
 
   const languages = [
     { code: 'en', label: 'English' },
-    { code: 'uk', label: 'Українська' },
+    { code: 'ua', label: 'Українська' },
   ];
 
   return (
@@ -43,4 +43,4 @@ const Menu = () => {
   );
 };
 
-export default Menu; 
+export default Menu;
