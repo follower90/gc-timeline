@@ -42,7 +42,6 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
     - name: rsync deployment
       uses: burnett01/rsync-deployments@7.0.1
       with:
