@@ -1,6 +1,7 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ReactRefreshWebpackPlugin = require('@pmmmwh/react-refresh-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = (env, argv) => {
   const isDevelopment = argv.mode === 'development';
@@ -41,6 +42,12 @@ module.exports = (env, argv) => {
         template: './public/index.html'
       }),
       isDevelopment && new ReactRefreshWebpackPlugin(),
+      new CopyWebpackPlugin({
+        patterns: [
+          { from: 'public/.htaccess', to: '' },
+          { from: 'public/favicon.ico', to: '' }
+        ]
+      })
     ].filter(Boolean),
     devServer: {
       historyApiFallback: true,
